@@ -18,3 +18,5 @@ The journal provides a forum for academic, industrial scholars to publish author
 and well referenced review or research articles which contribute new theoretical
 results in all areas of Computing. SUJCS is published by the Department of
 Computing and Information Systems of the Sabaragamuwa University of Sri Lanka
+
+#
