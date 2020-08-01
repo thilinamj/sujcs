@@ -350,8 +350,10 @@ button:focus {
     background-repeat: no-repeat;
     background-color: #fff;
     background-size: auto 100%;
-    width: 90%;
-    margin: 0 5%;
+	width: 100%;
+	box-shadow: black 0.01rem 0.01rem 0.01rem 0.01rem;
+	
+    
 }
 
 .top-header .navbar .navbar-collapse ul li a {
@@ -362,6 +364,7 @@ button:focus {
 	font-weight: 400;
 	overflow: hidden;
 	color: #000;
+	
 }
 
 a.navbar-brand {
@@ -375,9 +378,16 @@ a.navbar-brand img {
 
 .top-header .navbar .navbar-collapse ul li a.active {}
 .top-header .navbar .navbar-collapse ul li a:hover,
-.top-header .navbar .navbar-collapse ul li a:focus {
+.top-header .navbar .navbar-collapse ul li a:focus, .dropdown a:hover{
 	background: transparent;
-	color: #d4a81e;
+	color: #d4a81e ;
+}
+
+.dropdown-boarder:focus{
+	background: transparent;
+	box-shadow:0.1rem 0.1rem 0 0.1rem #d4a81e !important;
+	border-color: #d4a81e !important;
+	
 }
 
 .search_icon.nav-link img {
@@ -400,7 +410,8 @@ a.navbar-brand img {
     animation-name: fadeInDown;
     background: #fff;
     z-index: 20;
-    margin: 0;
+	margin: 0;
+	
 }
 
 .navbar-toggler {
@@ -689,13 +700,15 @@ a.navbar-brand img {
 }
 
 .tab_menu ul li:nth-child(7),.tab_menu ul li:nth-child(5) {
-    background: #002147;
+	margin-left: 50px !important;
+    background: #000000;
     transform: skew(-30deg);
-	color:#fff;
+	color:rgb(243, 241, 241); 
+	
 }
 
 .tab_menu ul li:nth-child(6) {
-    background: #d4a81e;
+    background: #000000;
     transform: skew(-30deg);
 	color:#fff;
 }
@@ -2249,4 +2262,12 @@ section.inner_banner h3 {
 	width: 150px !important;
 	height:150px ;
 	margin-left: 50px;
+}
+.article-title{
+font-size: 50px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.article-body{
+font-size: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

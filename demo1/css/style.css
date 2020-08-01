@@ -169,4 +169,10 @@ display:none;
        margin-left: 10px;
            
                }
-           
+               .card{
+                background-color: rgb(44, 43, 43) !important;
+                color:white;
+               }
+           .second-nav .nav-item{
+               
+           }
