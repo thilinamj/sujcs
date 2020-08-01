@@ -369,6 +369,7 @@ a.navbar-brand {
     position: relative;
 }
 
+
 a.navbar-brand img {
     height: 55px;
 }
@@ -689,27 +690,22 @@ a.navbar-brand img {
 }
 
 .tab_menu ul li:nth-child(7),.tab_menu ul li:nth-child(5) {
-    background: #002147;
     transform: skew(-30deg);
-	color:#fff;
+
 }
 
 .tab_menu ul li:nth-child(6) {
-    background: #d4a81e;
     transform: skew(-30deg);
-	color:#fff;
 }
 
 .tab_menu ul li:nth-child(7) a,.tab_menu ul li:nth-child(5) a {
     transform: skew(30deg);
 	float: left;
-	color: #fff;
 }
 
 .tab_menu ul li:nth-child(6) a {
     transform: skew(30deg);
 	float: left;
-	color: #fff;
 }
 
 .tab_menu ul li span {
